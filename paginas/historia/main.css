@@ -1,0 +1,435 @@
+header img {
+    width: 295px;
+    height: 109px;
+    left: 147px;
+    top: 34px;
+}
+
+header #maisInfo {
+    display: none;
+}
+
+header #menu {
+   display: none;
+}
+
+header #overlay {
+    display: none;
+}
+
+
+header div, main div, footer div {
+    width: 1072px;
+    height: 19px;
+    background: var(--orange);
+    box-shadow: var(--black-shadow);
+    border-radius: var(--border-radius);
+}
+
+header #ret1 {
+    width: 736px;
+    left: 483px;
+    top: 26px;
+}
+
+header h1 {
+    width: 71px;
+    height: 30px;
+    left: 483px;
+    top: 81px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+    color: var(--dark-orange);
+}
+
+header h2 {
+    width: 227px;
+    height: 24px;
+    left: 483px;
+    top: 111px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 200;
+    color: var(--orange);
+}
+
+header h3 {
+    width: 175px;
+    left: 1036px;
+    top: 56px;
+    font-size: 12px;
+    font-weight: 200;
+    color: var(--dark-orange);
+}
+
+header input {
+    width: 216px;
+    height: 34px;
+    left: 765px;
+    top: 91px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    outline: none;
+    color: black;
+    font-size: 12px;
+}
+
+header #search, #facebook, #instagram, #twitter, #youtube {
+    top: 84px;
+    cursor: pointer;
+}
+
+header #search {
+    width: 20px;
+    height: 20px;
+    left: 958px;
+    top: 99px;
+
+}
+
+header #facebook {
+    left: 1036px;
+    fill: white;
+    stroke: black;
+    stroke-width: .5px;
+    transition: .6s;
+}
+
+header #instagram{
+    left: 1064px;
+    fill: white;
+    stroke: black;
+    stroke-width: .5px;
+    transition: .6s;
+}
+
+header #twitter {
+    left: 1097px;
+    fill: white;
+    stroke: black;
+    stroke-width: .5px;
+    transition: .6s;
+}
+
+header #youtube {
+    left: 1128px;
+    fill:white;
+    stroke: black;
+    stroke-width: .5px;
+    transition: .6s;
+}
+
+header #youtube:hover {
+    fill: red;
+}
+
+header #twitter:hover {
+    fill: #1DA1F2;
+}
+
+header #facebook:hover {
+    fill: #4267B2;
+}
+
+header #instagram:hover {
+    /*fill: linear-gradient(5deg, #FFDC80, #FCAF45, #F77737, #F56040, #FD1D1D, #E1306C, #C13584, #833AB4, #5851DB, #405DE6);*/
+    fill: url(#rg);
+}
+
+header #radioETEC {
+    height: 12px;
+    left: 1036px;
+    top: 105px;
+    font-size: 12px;
+    color: var(--dark-orange);
+}
+
+header #headphones {
+    width: 30px;
+    height: 30px;
+    left: 1038px;
+    top: 134px;
+    cursor: pointer;
+}
+
+header h4 {
+    width: 116px;
+    height: 11px;
+    left: 1073px;
+    top: 130px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    color: #F68933;
+    cursor: pointer;
+}
+
+header #ret2 {
+    width: 1072px;
+    height: 19px;
+    left: 147px;
+    top: 170px;
+}
+
+header #navigation {
+    width: 1072px;
+    height: 61px;
+    left: 147px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #F68933;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+header h5{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+    top: var(--centered);
+    color: var(--dark-orange);
+    cursor: pointer;
+}
+
+header h5:hover {
+    color: var(--orange);
+}
+
+header #home {
+    width: 37px;
+    height: 12px;
+    left: 186px;
+}
+
+header #etecjrm {
+    width: 63px;
+    height: 12px;
+    left: 237px;
+    color: var(--orange);
+}
+
+header #email_etec {
+    width: 85px;
+    height: 11px;
+    left: 314px;
+}
+
+header #cursos_tecnicos {
+    width: 115px;
+    height: 11px;
+    left: 413px;
+}
+
+header #espaco_do_aluno {
+    width: 114px;
+    height: 11px;
+    left: 542px;
+}
+
+header #horario_das_aulas {
+    width: 126px;
+    height: 13px;
+    left: 670px;
+}
+
+header #agenda_etec_jrm {
+    width: 115px;
+    height: 11px;
+    left: 810px;
+}
+
+header #blog {
+    width: 36px;
+    height: 13px;
+    left: 939px;
+}
+
+header #fale_conosco {
+    width: 92px;
+    height: 12px;
+    left: 989px; 
+}
+
+header #localizacao {
+    width: 85px;
+    height: 12px;
+    left: 1095px;
+}
+
+header #ret3 {
+    width: 1072px;
+    height: 19px;
+    left: 147px;
+    top: 290px;
+}
+
+main .titulo {
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33px;
+    color: #820024;
+}
+
+main .primeiro {
+    width: 123px;
+    height: 33px;
+    left: 618px;
+    top: 353px;
+}
+
+main .segundo {
+    width: 102px;
+    height: 33px;
+    left: 629px;
+    top: 905px;
+}
+
+main .terceiro {
+    width: 78px;
+    height: 33px;
+    left: 638px;
+    top: 1076px;
+}
+
+main .quarto {
+    width: 263px;
+    height: 33px;
+    left: 543px;
+    top: 1287px;
+}
+
+main .quinto {
+    width: 205px;
+    height: 35px;
+    left: 567px;
+    top: 1659px;
+    font-weight: bold;
+}
+
+main .sexto {
+    width: 170px;
+    height: 35px;
+    left: 598px;
+    top: 2594px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #820024;    
+}
+
+main #text1 {
+    width: 1072px;
+    height: 443px;
+    left: 147px;
+    top: 395px;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+main #text2 {
+    width: 1072px;
+    height: 59px;
+    left: 147px;
+    top: 950px;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;    
+}
+
+main #text3 {
+    width: 1072px;
+    height: 90px;
+    left: 144px;
+    top: 1130px;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+
+main #text4 {
+    width: 1072px;
+    height: 251px;
+    left: 147px;
+    top: 1329px;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+main #text5 {
+    width: 421px;
+    height: 825px;
+    left: 453px;
+    top: 1700px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+main #text6 {
+    width: 294px;
+    height: 200px;
+    top: 2649px;
+    left: 536px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #F68933;
+}
+
+main #ret4 {
+    width: 1072px;
+    height: 19px;
+    left: 147px;
+    top: 1220px;
+}
+
+main #ret5 {
+    width: 1072px;
+    height: 19px;
+    left: 144px;
+    top: 1610px; 
+}
+
+
+main #ret6 {
+    width: 1072px;
+    height: 19px;
+    left: 147px;
+    top: 2556px;
+}
+
+footer #ret7 {
+    width: 1264px;
+    height: 116px;
+    left: 51px;
+    top: 3097px;
+}
+
+main img {
+    width: 187px;
+    height: 123px;
+    left: 590px;
+    top: 2930px;    
+}
+
+
+footer h1 {
+    width: 777px;
+    height: 28px;
+    left: 310px;
+    top: 3141px;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #820024;  
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>História</title>
+
+        <meta charset="utf-8">
+        <meta name="author" content="Vitor">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../../global.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="mobile.css">
+    </head>
+
+    <body>
+        <header>
+            <!-- Logo da ETEC JRM -->
+            <img src="../../assets/etecjrmLogo.png" alt="ETEC JRM">
+
+
+            <!-- ret1 -->
+            <div id="ret1"></div>
+
+
+            
+            <!-- Nome da ETEC -->
+            <h1>ETEC</h1>
+            <h2>Jornalista Roberto Marinho</h2>
+
+            
+
+
+            <!-- Header input -->
+            <form method="POST">
+                <input type="text" name="search" placeholder="Digite o que procura">
+            </form>
+            <img src="../../assets/featherIcons/search.svg" id="search">
+            
+            
+            <!--MENU OVERLAY PARA MOBILE-->
+            <h3 onClick="overlay()" id="maisInfo">CLIQUE PARA MAIS INFORMAÇÕES</h3>
+            <svg onClick="overlay()" id="menu" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            
+
+
+
+            <!--Campo de Redes Sociais -->
+            <h3 class="overlay">ETEC JRM NAS REDES SOCIAIS</h3>
+                <!-- Facebook -->
+                <a class="overlay" target="_blank" href="https://www.facebook.com/etecjrm"><svg class="overlay" id="facebook" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+
+                <!-- Instagram -->
+                <a class="overlay" target="_blank" href="https://www.instagram.com/etecjrm253/">
+                    <svg class="overlay" id="instagram" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                        <radialGradient id="rg" r="150%" cx="30%" cy="107%">
+                            <stop stop-color="#fdf497" offset="0" />
+                            <stop stop-color="#fdf497" offset="0.05" />
+                            <stop stop-color="#fd5949" offset="0.45" />
+                            <stop stop-color="#d6249f" offset="0.6" />
+                            <stop stop-color="#285AEB" offset="0.9" />
+                        </radialGradient>
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+
+                <!-- Twitter -->
+                <a class="overlay" target="_blank" href="https://twitter.com/etecjrm253"><svg id="twitter" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+
+                <!-- Youtube -->
+                <a class="overlay" target="_blank" href="https://www.youtube.com/user/etecjrm253"><svg id="youtube" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg></a>
+
+
+
+
+
+                <!-- Rádio ETEC -->
+                <h3 class="overlay" id="radioETEC">RÁDIO ETEC</h3>
+                    <!-- Icone de Fone -->
+                    <img class="overlay" src="../../assets/featherIcons/headphones.svg" id="headphones">
+                    <h4 class="overlay">OUVIR A PROGRAMAÇÃO</h4>
+
+
+
+
+            <!-- Divisão de conteúdo - ret2-->
+            <div id="ret2"></div>
+
+            <div id="overlay" class="overlay">
+                
+            </div>
+            
+                <!-- Itens de navegação -->
+                <div id="navigation" class="overlay"></div>
+                <h5 id="home" class="overlay">HOME</h5>
+                <h5 id="etecjrm" class="overlay">ETEC JRM</h5>
+                <h5 id="email_etec" class="overlay">EMAIL @ETEC</h5>
+                <h5 id="cursos_tecnicos" class="overlay">CURSOS TÉCNICOS</h5>
+                <h5 id="espaco_do_aluno" class="overlay">ESPAÇO DO ALUNO</h5>
+                <h5 id="horario_das_aulas" class="overlay">HORÁRIO DAS AULAS</h5>
+                <h5 id="agenda_etec_jrm" class="overlay">AGENDA ETEC JRM</h5>
+                <h5 id="blog" class="overlay">BLOG</h5>
+                <h5 id="fale_conosco" class="overlay">FALE CONOSCO</h5>
+                <h5 id="localizacao" class="overlay">LOCALIZAÇÃO</h5>
+                <!-- Itens de navegação -->
+                
+
+            <!-- Divisão de conteúdo - ret3 -->
+            <div id="ret3"></div>
+        </header>
+
+
+
+
+        <main>
+           
+
+
+            <!-- Primeiro texto -->
+            <h1 class="titulo primeiro">HISTÓRIA</h1>
+            <p id="text1">Desde 01 de Agosto de 2011, a cidade de São Paulo e a sua região metropolitana ganha a Escola Técnica Estadual Jornalista Roberto Marinho (Etec JRM), fruto de convênio entre o Governo do Estado de São Paulo, Fundação Roberto Marinho e TV Globo. A Etec JRM passa a integrar ao Centro Estadual de Educação Tecnológica Paula Souza – maior instituição de Educação Profissional do Pais. Os cursos – Multimidia (duração de três semestres) e Produção de Áudio e Vídeo (duração de quatro semestres) - foram elaborados por especialistas do Centro Paula Souza em parceria com profissionais da Globo. Caberá ao Paula Souza o acompanhamento do processo seletivo, a contratação de professores, a compra de mobiliário e equipamentos e a infraestrutura para o funcionamento dos cursos. O prédio da nova Etec foi construído pela Globo, em terreno cedido pelo governo estadual. Coube também à empresa a implementação do projeto de paisagismo na área da escola. O Centro Paula Souza ficou responsável pelo acompanhamento do processo seletivo dos estudantes, pela contratação de professores, compra de mobiliário e equipamentos e pela infraestrutura para o funcionamento dos cursos e sua manutenção. Além das aulas teóricas realizadas em uma das 06 salas de aulas, as atividades práticas dos quatro cursos acontecem em um dos 05 laboratórios de Informática, sendo dois deles compostos com 25 Macintosh de última geração e também no estúdio de áudio e vídeo em fase de montagem nas dependências da Etec.</p>
+
+
+
+
+            <!-- Segundo texto -->
+            <h1 class="titulo segundo">MISSÃO</h1>
+            <p id="text2">Promover a educação profissional pública de excelência, nas área de produção cultural e design, visando ao atendimento das demandas sociais e do mundo do trabalho na área em questão.</p>
+
+
+
+
+            <!-- Terceiro texto -->
+            <h1 class="titulo terceiro">VISÃO</h1>
+            <p id="text3">Consolidar-se como Unidade de Ensino de excelência e estímulo ao desenvolvimento humano e tecnológico, tendo como princípio a utilização dos meios de comunicação em sua mais alta performance e eficiência.</p>
+
+
+
+            <!-- Divisão de conteúdo - ret4 -->
+            <div id="ret4"></div>
+
+
+
+
+            <!-- Quarto texto -->
+            <h1 class="titulo quarto">PALAVRA DO EDITOR</h1>
+            <p id="text4">Neste primeiro ano de trabalho na Direção da Etec desde sua implantação em Agosto de 2011, traçamos juntamente com a equipe escolar algumas ações que consideramos fundamentais. Entre essas ações está o site da Etec, ferramenta essencial para divulgar os cursos, os projetos, o vestibulinho, enfim, mais um canal de comunicação entre a Etec JRM e a comunidade. O primeiro passo está dado. Agora vamos aperfeiçoar essa ferramenta para melhor atendê-lo. A você prezado(a) visitante, esperamos que tenha apreciado(a) o site e continue nos visitando, pois sempre teremos informações atualizadas pela nossa equipe responsável. <br>
+                <strong>Araujo Gut</strong>,<br>
+                Diretor da Etec</p>
+
+
+            <!-- Divisão de conteúdo - ret5 -->
+            <div id="ret5"></div>
+
+
+
+
+            <!-- Lista de professores -->
+            <h1 class="titulo quinto"><strong>PROFESSORES</strong></h1>
+            <p id="text5">ADELMA VIEIRA MOURÃO<br>
+                AGNACILDA DA SILVA ROCHA<br>
+                ALEXANDRE XAVIER LEITE<br>
+                ALFREDO LUIZ BAUCIA<br>
+                ANDRE HENRIQUES FERNANDES OLIVEIRA<br>
+                CARLOS RODRIGUES JUNIOR<br>
+                CELSO HENRIQUE MASOTTI<br>
+                DANILLO SILVA DOS SANTOS<br>
+                DIEGO MARQUES DE CARVALHO<br>
+                FELIPE FERREIRA NEVES<br>
+                GERALDO LUIS ANTUNES LINS<br>
+                HENRIQUE GERKEN BRASIL<br>
+                IRISLANE MENDES PEREIRA<br>
+                WALLACE COSTA DE ANDRADE<br>
+                JULIANA DE SOUSA LAMAS<br>
+                LILIANA REGINA GHIRARDELLO<br>
+                LUIS FIORE<br>
+                LUIZ CARLOS ALONSO LOZANO<br>
+                MANOEL FERNANDES GOMES<br>
+                MARCOS SERAFIM<br>
+                MARIA FATIMA DE MIRANDA SCANTAMBURLO<br>
+                MARIA LUIZA PAZELLI<br>
+                MAURICIO RODRIGUES DE MELO<br>
+                MÔNICA WALTER RODRIGUES<br>
+                NELSON CARAMICO<br>
+                NELSON PICCHI JUNIOR<br>
+                PAULO HENRIQUE ANTUNES<br>
+                REINALDO DO NASCIMENTO LUCCHESI<br>
+                ROBSON VANDERLEI ALVES DE ANDRADE<br>
+                RODRIGO CRISSIUMA FIGUEIREDO AYABE<br>
+                RODRIGO SANTOS SOUSA<br>
+                RUBEN CAETANO PEREIRA<br>
+                SERGIO EVANGELISTA PINHO<br>
+                VALTEIR BENEDITO VAZ<br>
+                VINICIUS CESAR DIAS<br>
+                </p>
+
+
+            <!-- Divisão de conteúdo - ret6 -->    
+            <div id="ret6"></div>
+
+
+
+
+            <!-- Links -->
+            <h1 class="title sexto">LINKS ÚTEIS</h1>
+            <p id="text6">Regimento das ETECs Calendário Anual Letivo SAI - Sist Aval Institucional APM Observatório Escolar Departamentos ETEC Projetos ETEC</p>
+            <img src="../../assets/cpsLogo.png">
+
+            
+        </main>
+
+        <footer>
+            <div id="ret7"></div>
+            <h1>© 2019 ETEC JORNALISTA ROBERTO MARINHO. ALL RIGHTS RESERVED.</h1>
+        </footer>
+
+        <script>
+            function overlay() {
+                document.getElementsByName("")
+            }
+        </script>
+     </body>
+</html>

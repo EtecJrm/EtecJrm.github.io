@@ -1,0 +1,430 @@
+@media only screen and (max-width: 600px) {
+    header img {
+        width: 147px;
+        height: 55px;
+        left: 21px;
+        top: 26px;
+    }
+
+    header #ret1 {
+        width: 170px;
+        height: 10px;
+        left: 187px;
+        top: 26px;
+    }
+
+    header h1, h2 {
+        display: none;
+    }
+
+    header input {
+        display: none;
+    }
+
+    header #search {
+        display: none;
+    }
+
+    header #maisInfo {
+        display: block;
+        width: 55px;
+        height: 27px;
+        left: 212px;
+        top: 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    header #menu {
+        display: block;
+        left: 278px;
+        top: 50px;
+    }
+
+    header #ret2 {
+        width: 336px;
+        height: 10px;
+        left: 21px;
+        top: 98px;
+    }
+
+    header h3 {
+        display: none;
+    }
+
+    header a, #facebook, #instagram, #twitter, #youtube {
+    }
+
+    header #radioETEC, #headphones, h4 {
+    }
+
+    header #ret2 {
+        display: none;
+    }
+
+    header #navigation, h5 {
+        display: none;
+    }
+
+    header #ret3 {
+        width: 336px;
+        height: 10px;
+        left: 21px;
+        top: 98px;
+    }
+
+    main .primeiro {
+        width: 70px;
+        height: 19px;
+        left: 152px;
+        top: 137px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    main #text1 {
+        width: 263px;
+        height: 642px;
+        left: 68px;
+        top: 162px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    main .segundo {
+        width: 58px;
+        height: 13px;
+        left: 158px;
+        top: 850px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    main #text2 {
+        width: 261px;
+        height: 95px;
+        left: 68px;
+        top: 885px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    main .terceiro {
+        width: 46px;
+        height: 14px;
+        left: 163px;
+        top: 1036px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    main #text3 {
+        width: 245px;
+        height: 96px;
+        left: 64px;
+        top: 1063px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    main #ret4 {
+        width: 336px;
+        height: 10px;
+        left: 19px;
+        top: 1181px;
+    }
+
+    main .quarto {
+        width: 157px;
+        height: 24px;
+        left: 109px;
+        top: 1220px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    main #text4 {
+        width: 245px;
+        height: 323px;
+        left: 64px;
+        top: 1244px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    main #ret5 {
+        width: 336px;
+        height: 10px;
+        left: 19px;
+        top: 1580px;
+    }
+
+    main .quinto {
+        position: absolute;
+        width: 111px;
+        height: 21px;
+        left: 132px;
+        top: 1619px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    main #text5 {
+        width: 257px;
+        height: 620px;
+        left: 58px;
+        top: 1640px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    main #ret6 {
+        width: 336px;
+        height: 10px;
+        left: 19px;
+        top: 2289px;
+    }
+
+    main .sexto {
+        position: absolute;
+        width: 94px;
+        height: 19px;
+        left: 139px;
+        top: 2322px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    main #text6 {
+        position: absolute;
+        width: 178px;
+        height: 113px;
+        left: 98px;
+        top: 2341px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    main img {
+        width: 95px;
+        height: 62px;
+        left: 140px;
+        top: 2487px;
+    }
+
+    footer #ret7 {
+        width: 331px;
+        height: 61px;
+        left: 22px;
+        top: 2582px;
+    }
+
+    footer h1 {
+        position: absolute;
+        width: 324px;
+        height: 8px;
+        left: 45px;
+        top: 2603px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+
+
+    /*MENU OVERLAY*/
+    header #overlay {
+        position: relative;
+        width: 193px;
+        height: 381px;
+        background: #FFFFFF;
+        border: 3px solid #F68933;
+        box-sizing: border-box;
+        border-radius: 7px;
+        left: 50%;
+        top: 130px;
+        z-index: 10;
+    }
+
+    header h5 {
+        display: block;
+        z-index: 11;
+    }
+
+    header #home{
+        display: block;
+        left: 110px;
+        top: 131px;
+        z-index: 11;
+    }
+
+    header #etecjrm {
+        top: 157px;
+        left: 110px;
+    }
+
+    header #email_etec {
+        top: 183px;
+        left: 110px;
+    }
+
+    header #cursos_tecnicos {
+        top: 209px;
+        left: 110px;
+    }
+
+    header #espaco_do_aluno {
+        top: 235px;
+        left: 110px;
+    }
+
+    header #horario_das_aulas {
+        top: 261px;
+        left: 110px;
+    }
+
+    header #agenda_etec_jrm {
+        top: 287px;
+        left: 110px;
+    }
+
+    header #blog {
+        top: 313px;
+        left: 110px;
+    }
+
+    header #fale_conosco {
+        top: 339px;
+        left: 110px;
+    }
+
+    header #localizacao {
+        top: 365px;
+        left: 110px;
+    }
+
+    header h3 {
+        display: block;
+        top: 404px;
+        left: 110px;
+        z-index: 11;
+    }
+
+    header #facebook {
+        display: block;
+        left: 110px;
+        top: 428px;
+        z-index: 11;
+        width: 22px;
+    }
+
+    header #instagram {
+        display: block;
+        left: 132px;
+        top: 428px;
+        z-index: 11;
+        width: 22px;
+    }
+
+    header #twitter {
+        display: block;
+        left: 161px;
+        top: 428px;
+        z-index: 11;
+        width: 22px;
+    }
+
+    header #youtube {
+        display: block;
+        left: 189px;
+        top: 428px;
+        z-index: 11;
+        width: 22px;
+    }
+
+    header #radioETEC {
+        display: block;
+        left: 110px;
+        top: 449px;
+        z-index: 11;
+    }
+
+    header #headphones {
+        display: block;
+        left: 110px;
+        top: 473px;
+        z-index: 11;
+    }
+
+    header h4 {
+        display: block;
+        left: 146px;
+        top: 470px;
+        z-index: 11;
+    }
+
+    header .overlay, #facebook, #instagram, #headphones, #radioETEC, #home {
+        display: none !important;
+    }
+
+    #maisInfo::after ~ header .overlay, #facebook, #instagram, #headphones, #radioETEC, #home {
+        display: block;
+        content: "";
+    }
+}
